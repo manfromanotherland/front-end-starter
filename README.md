@@ -1,6 +1,6 @@
 # Template Front-end
 
-Esse é um template front-end usado nos meus projetos, para agilizar o desenvolvimento de sites. Ele foi feito tendo como base bom senso, meus 7 anos de experiência no ramo e .
+Este é um template starter de front-end usado nos meus projetos para agilizar o desenvolvimento de sites. Ele foi feito tendo como base bom senso e meus 7 anos de experiência na área. Claro que eu – ainda – não sei tudo, então se você tiver comentários ou sugestões, eu posso ser encontrado no [Twitter](http://twitter.com/edmundojr_).
 
 ## Suporte
 
