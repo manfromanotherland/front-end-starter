@@ -1,0 +1,119 @@
+/*
+ *         Project Name
+ * agency  Fixe Ideias     fixeideias.com.br
+ * code    Edmundo Junior  edmundojr.com
+ * design  ___             ___
+ */
+
+
+
+
+/* Base Styles
+==============================================================================*/
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* === Structure === */
+.container {
+	position: relative;
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.col {
+	float: left;
+	width: 100%;
+	margin-left: 5%;
+}
+
+.size1of2 { width: 47.5%; }
+.size1of3 { width: 30%; }
+.size2of3 { width: 65%; }
+.size1of4 { width: 21.25%; }
+.size3of4 { width: 73.75%; }
+
+.first {
+	clear: both;
+	margin-left: 0;
+}
+
+.left  { float: left; }
+.right { float: right; }
+
+@media all and (max-width: 640px) {
+
+	.size1of3,
+	.size2of3,
+	.size1of4,
+	.size3of4 {
+		width: 100%;
+		margin-left: 0;
+	}
+
+}
+
+
+
+
+/* Helper classes
+==============================================================================*/
+/* Clearfix */
+.cf:before,
+.cf:after {
+	content: "";
+	display: table;
+}
+.cf:after { clear: both; }
+
+/* Image replacement */
+.ir {
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+
+/* Hide elements */
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+
+
+
+/* Typography
+==============================================================================*/
+body {
+	font: 16px/1.25em Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+textarea { resize: vertical; }
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/* Main Area
+==============================================================================*/
