@@ -38,6 +38,9 @@
 .size1of4 { width: 21.25%; }
 .size3of4 { width: 73.75%; }
 
+.size-golden-long  { width: 61.803398%; }
+.size-golden-short { width: 38.196602%; }
+
 .first {
 	clear: both;
 	margin-left: 0;
@@ -51,7 +54,9 @@
 	.size1of3,
 	.size2of3,
 	.size1of4,
-	.size3of4 {
+	.size3of4,
+	.size-golden-long,
+	.size-golden-short {
 		width: 100%;
 		margin-left: 0;
 	}
@@ -63,24 +68,27 @@
 
 /* Helper classes
 ==============================================================================*/
-/* Clearfix */
+/* === Clearfix === */
 .cf:before,
 .cf:after {
 	content: "";
 	display: table;
 }
+
 .cf:after { clear: both; }
 
-/* Image replacement */
+
+/* === Image replacement === */
 .ir {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 }
 
-/* Hide elements */
+
+/* === Hide elements === */
 .hidden {
-	display: none !important;
+	display: none;
 	visibility: hidden;
 }
 
