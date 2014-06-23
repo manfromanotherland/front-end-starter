@@ -1,7 +1,7 @@
 /*
  *         Project Name
- * agency  Fixe Ideias     fixeideias.com.br
- * code    Edmundo Junior  edmundojr.com
+ * agency  ___             ___
+ * code    ___             ___
  * design  ___             ___
  */
 
@@ -18,11 +18,18 @@
 	        box-sizing: border-box;
 }
 
+body {
+	font: 1em/1.25em Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+
 /* === Structure === */
 .container {
 	position: relative;
 	width: 90%;
-	max-width: 980px;
+	max-width: 1160px;
 	margin: 0 auto;
 }
 
@@ -38,25 +45,18 @@
 .size1of4 { width: 21.25%; }
 .size3of4 { width: 73.75%; }
 
-.size-golden-long  { width: 61.803398%; }
-.size-golden-short { width: 38.196602%; }
-
 .first {
 	clear: both;
 	margin-left: 0;
 }
 
-.left  { float: left; }
-.right { float: right; }
+@media all and (max-width: 40em) {
 
-@media all and (max-width: 640px) {
-
+	.size1of2,
 	.size1of3,
 	.size2of3,
 	.size1of4,
-	.size3of4,
-	.size-golden-long,
-	.size-golden-short {
+	.size3of4 {
 		width: 100%;
 		margin-left: 0;
 	}
@@ -75,7 +75,9 @@
 	display: table;
 }
 
-.cf:after { clear: both; }
+.cf:after {
+	clear: both;
+}
 
 
 /* === Image replacement === */
@@ -97,12 +99,6 @@
 
 /* Typography
 ==============================================================================*/
-body {
-	font: 16px/1.25em Arial, sans-serif;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-}
-
 hr {
 	display: block;
 	height: 1px;
@@ -112,11 +108,13 @@ hr {
 	padding: 0;
 }
 
-textarea { resize: vertical; }
+textarea {
+	resize: vertical;
+}
 
 img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 
