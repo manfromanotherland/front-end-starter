@@ -3,7 +3,6 @@
 
 # TEAM
 
-	Edmundo Junior -- Designer & Coder -- @edmundojr_
 	<name> -- <role> -- <twitter>
 
 # THANKS
@@ -12,5 +11,4 @@
 
 # TECHNOLOGY COLOPHON
 
-	HTML5, CSS3
-	Normalize.css, jQuery
+	---
