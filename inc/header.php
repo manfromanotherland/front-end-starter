@@ -6,13 +6,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+<?php $page = basename($_SERVER['PHP_SELF'], ".php"); ?>
+
 	<title>
-<?php if (strpos($class,"page1") !== false): ?>
+<?php if ($page == "page1"): ?>
 		Page 1 ‹
-<?php elseif (strpos($class,"page2") !== false): ?>
+<?php elseif ($page == "page2"): ?>
 		Page 2 ‹
 <?php endif; ?>
-		Template
+		Title
 	</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -26,4 +28,4 @@
 
 </head>
 
-<body class="<?php echo $class; ?>">
+<body class="<?php echo $page; ?>">

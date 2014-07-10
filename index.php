@@ -1,5 +1,5 @@
-<?php $class = "home"; include("inc/header.inc"); ?>
+<?php include("inc/header.php"); ?>
 
 
 
-<?php include("inc/footer.inc"); ?>
+<?php include("inc/footer.php"); ?>
