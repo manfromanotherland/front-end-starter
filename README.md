@@ -1,8 +1,8 @@
 # Template Front-end
 
-Este é um template starter de front-end usado nos meus projetos para agilizar o desenvolvimento de sites. Ele foi feito tendo como base bom senso e meus 7 anos de experiência na área. Claro que eu – ainda – não sei tudo, então se você tiver comentários ou sugestões, eu posso ser encontrado no [Twitter](http://twitter.com/edmundojr_).
+This is the **Starter Front-end Template** that I've been using on my projects. I've done it using my 8 year's experience in the field. It's obvious that I don't know everything (yet), so if you have a suggestion I can be found on [Twitter](http://twitter.com/edmundojr_).
 
-## Suporte
+## Support
 
-- Todos os browsers modernos
+- All modern browsers
 - IE8 and up
