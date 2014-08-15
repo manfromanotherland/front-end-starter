@@ -1,15 +1,14 @@
 /*
- *         Project Name
- * agency  ___             ___
- * code    ___             ___
- * design  ___             ___
+ *         __ Project Name
+ * agency  __                __
+ * code    __ Edmundo Junior __ hello@edmundojr.com
+ * design  __                __
  */
 
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
 
-
-
-/* Base Styles
-==============================================================================*/
 *,
 *:after,
 *:before {
@@ -24,8 +23,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* Structure
+   ========================================================================== */
 
-/* === Structure === */
 .container {
 	position: relative;
 	width: 90%;
@@ -35,40 +35,38 @@ body {
 
 .col {
 	float: left;
-	width: 100%;
-	margin-left: 5%;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
-.size1of2 { width: 47.5%; }
-.size1of3 { width: 30%; }
-.size2of3 { width: 65%; }
-.size1of4 { width: 21.25%; }
-.size3of4 { width: 73.75%; }
+.col-1-4 { width: 21%; }
+.col-1-3 { width: 29.333333333%; }
+.col-1-2 { width: 46%; }
+.col-2-3 { width: 62.666666666%; }
+.col-3-4 { width: 71%; }
 
-.first {
+.clear {
 	clear: both;
-	margin-left: 0;
 }
 
 @media all and (max-width: 40em) {
 
-	.size1of2,
-	.size1of3,
-	.size2of3,
-	.size1of4,
-	.size3of4 {
-		width: 100%;
-		margin-left: 0;
+	.col-1-4,
+	.col-1-3,
+	.col-1-2,
+	.col-2-3,
+	.col-3-4 {
+		width: 96%;
 	}
 
 }
 
+/* Helper Classes
+   ========================================================================== */
 
+/* Clearfix */
 
-
-/* Helper classes
-==============================================================================*/
-/* === Clearfix === */
 .cf:before,
 .cf:after {
 	content: "";
@@ -79,26 +77,24 @@ body {
 	clear: both;
 }
 
+/* Image replacement */
 
-/* === Image replacement === */
 .ir {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 }
 
+/* Hide elements */
 
-/* === Hide elements === */
 .hidden {
 	display: none;
 	visibility: hidden;
 }
 
-
-
-
 /* Typography
-==============================================================================*/
+   ========================================================================== */
+
 hr {
 	display: block;
 	height: 1px;
@@ -118,8 +114,7 @@ img {
 	height: auto;
 }
 
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
 
-
-
-/* Main Area
-==============================================================================*/
