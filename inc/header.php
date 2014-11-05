@@ -4,6 +4,7 @@
 <head>
 
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <?php $page = basename($_SERVER['PHP_SELF'], ".php"); ?>
 
