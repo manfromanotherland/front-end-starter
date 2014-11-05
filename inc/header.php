@@ -2,7 +2,7 @@
 <!--[if IE 8]><html lang="pt-br" class="ie8"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="pt-br"><!--<![endif]-->
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<meta charset="utf-8">
 <?php $page = basename($_SERVER['PHP_SELF'], ".php"); ?>
 	<title>
