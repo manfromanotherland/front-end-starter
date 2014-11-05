@@ -2,12 +2,9 @@
 <!--[if IE 8]><html lang="pt-br" class="ie8"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="pt-br"><!--<![endif]-->
 <head>
-
-	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+	<meta charset="utf-8">
 <?php $page = basename($_SERVER['PHP_SELF'], ".php"); ?>
-
 	<title>
 <?php if ($page == "page1"): ?>
 		Page 1 ‹
@@ -25,7 +22,6 @@
 	<!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
-
 </head>
 
 <body class="<?php echo "is-$page"; ?>">
