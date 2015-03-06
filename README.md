@@ -1,6 +1,8 @@
-# Template Front-end
+# Simple Front-end Template
 
-This is the **Starter Front-end Template** that I've been using on my projects. I've done it using my 8 year's experience in the field. It's obvious that I don't know everything (yet), so if you have a suggestion I can be found on [Twitter](http://twitter.com/edmundojr_).
+This is the **Simple Front-end Template** that I've been using on my projects. I'd really appreciate if you have any suggestions!
+
+I can be found on [Twitter](http://twitter.com/edmundojr_).
 
 ## Support
 
