@@ -1,5 +1,5 @@
-<?php include 'inc/header.php'; ?>
+<?php include 'inc/functions.php'; get_header(); ?>
 
 
 
-<?php include 'inc/footer.php'; ?>
+<?php get_footer(); ?>

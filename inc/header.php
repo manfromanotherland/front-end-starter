@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
 	<meta charset="utf-8">
-<?php $page = basename($_SERVER['PHP_SELF'], ".php"); ?>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>
 <?php if ($page == "page1"): ?>
 		Page 1 ‹
@@ -24,4 +23,4 @@
 
 </head>
 
-<body class="<?php echo "is-$page"; ?>">
+<body <?php body_class(); ?>>
