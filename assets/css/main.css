@@ -1,75 +1,73 @@
-/*
- *         __ Project Name
- * agency  __                __
- * code    __ Edmundo Junior __ hello@edmundojr.com
- * design  __                __
- */
+/*! Simple Front-end Template */
 
 /* ==========================================================================
-   Base Styles
+   Base styles: defaults
    ========================================================================== */
 
 *,
 *:after,
-*:before {
+*:before,
+input[type="search"] {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
 
-body {
-	font: 1em/1.25em Arial, sans-serif;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
+html {
+	font-size: 1em;
+	line-height: 1.4;
 }
 
-/* Structure
-   ========================================================================== */
+/*
+ * Remove the gap between the follow
+ * elements and the bottom of their containers
+ */
 
-.container {
-	position: relative;
-	width: 90%;
-	max-width: 1160px;
-	margin: 0 auto;
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
 }
 
-.col {
-	float: left;
-	width: 96%;
-	margin-left: 2%;
-	margin-right: 2%;
+/*
+ * Responsive images
+ */
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
-.col-1-4 { width: 21%; }
-.col-1-3 { width: 29.333333333%; }
-.col-1-2 { width: 46%; }
-.col-2-3 { width: 62.666666666%; }
-.col-3-4 { width: 71%; }
+/*
+ * Remove default fieldset styles
+ */
 
-.clear {
-	clear: both;
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
-@media all and (max-width: 40em) {
+/*
+ * Allow only vertical resizing of textareas
+ */
 
-	.col-1-4,
-	.col-1-3,
-	.col-1-2,
-	.col-2-3,
-	.col-3-4 {
-		width: 96%;
-	}
-
+textarea {
+	resize: vertical;
 }
 
-/* Helper Classes
+/* ==========================================================================
+   Helper Classes
    ========================================================================== */
 
 /* Clearfix */
 
 .cf:before,
 .cf:after {
-	content: "";
+	content: " ";
 	display: table;
 }
 
@@ -92,29 +90,37 @@ body {
 	visibility: hidden;
 }
 
-/* Typography
+/* ==========================================================================
+   Typography
    ========================================================================== */
+
+/*
+ * A better looking default horizontal rule
+ */
 
 hr {
 	display: block;
 	height: 1px;
+	padding: 0;
+	margin: 1em 0;
 	border: 0;
 	border-top: 1px solid #ccc;
-	margin: 1em 0;
-	padding: 0;
-}
-
-textarea {
-	resize: vertical;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
 }
 
 /* ==========================================================================
-   Main styles
+   Main Styles
    ========================================================================== */
 
+
+
+/* ==========================================================================
+   Media Queries for high resolution devices
+   ========================================================================== */
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+
+}

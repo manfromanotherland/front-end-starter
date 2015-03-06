@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html lang="pt-br" class="ie8"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="pt-br"><!--<![endif]-->
+<html lang="pt-br">
 <head>
 
 	<meta charset="utf-8">
