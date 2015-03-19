@@ -4,18 +4,15 @@
    Base styles: defaults
    ========================================================================== */
 
-*,
-*:after,
-*:before,
-input[type="search"] {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-}
-
 html {
 	font-size: 1em;
-	line-height: 1.4;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 /*
