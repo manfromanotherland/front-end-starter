@@ -1,8 +1,8 @@
-# Simple Front-end Starter
+# Front-end Starter
 
-This is the **Simple Front-end Starter** that I've been using on my projects.
+This is a front-end starter that I'd used on my past projects.
 
-I'd really appreciate if you have any suggestions. I can be found on [Twitter](http://twitter.com/edmundojr_).
+It's pretty much abandoned now, but you can check the modern version that I'm currently using, called “[Bones](https://github.com/edmundojr/bones)”.
 
 ## Support
 
